@@ -1,0 +1,170 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  overflow: hidden;
+}
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 100%;
+}
+
+.banner img{
+  width:100%;
+  height:100%;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+
+ul{
+  position: absolute;
+  color:white;
+  list-style: none;
+  font-size: 2vw;
+  font-weight: 700;
+  margin-top:-8em;
+}
+
+ul li{
+  padding: 1vw 0;
+  text-shadow: 2px 2px 20px black;
+}
+
+i{
+  font-weight: 700;
+}
+
+.loginpanel{
+  display: flex;
+  flex-direction: column;
+  width:50vw;
+  height: 100%;
+  background-color: white;
+  align-items: center;
+}
+
+form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw;
+}
+
+.loginpanel i{
+  margin-bottom: 2vw;
+}
+
+.punchLine{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 45%;
+  align-items: flex-start;
+  margin-top: 10vw;
+}
+
+#main{
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+#sub{
+  margin-top:5vw;
+  font-size:1vw;
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+
+.bottomPanel{
+  display: flex;
+  flex-direction: column;
+  width:46%;
+  height: 100%;
+}
+
+.bottomPanel button{
+  padding:0.5vw;
+  margin-bottom: 0.5vw;
+  font-size: 1vw;
+  font-weight: 700;
+  border-radius: 1vw;
+}
+
+#signBtn{
+  border: none;
+  background-color:#41B3A3;
+  color:white;
+}
+
+#logBtn{
+  border-style: solid;
+  border-color: #41B3A3;
+  color:#41B3A3;
+  background-color: white;
+  box-shadow: none;
+}
+
+.punchLine i{
+  font-size: 3vw;
+  color:#41B3A3;
+}
+
+form div{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 0.2vw;
+  border: 2px #EEEEEE solid;
+  padding:2px;
+  border-radius: 5px;
+  border-color: #BBBBBB;
+}
+
+form div label{
+  color: #BBBBBB;
+  font-weight: 700;
+}
+
+button{
+  cursor: pointer;
+}
+
+form button{
+  margin-left: 1vw;
+  border-radius: 1vw;
+  padding:0.6vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-color: #41B3A3;
+  border-style: solid;
+  background: white;
+  color:#41B3A3;
+  font-size: 0.8vw;
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+form button:hover{
+  background: rgba(65, 179, 163,0.1)
+}
+
+input{
+  border:none;
+}
+
+input:focus .formcontrol{
+  border-color: #41B3A3;
+}
+
+input:focus{
+  outline: none;
+}

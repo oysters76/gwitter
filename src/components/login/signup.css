@@ -1,0 +1,91 @@
+.modal{
+  display:none;
+  position: fixed;
+  z-index: 1;
+  padding-top:6vw;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  overflow:auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content{
+  background: white;
+  margin:auto;
+  padding:20px;
+  width:30%;
+  height: 70%;
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.top-row i{
+  flex-grow: 2;
+  margin-left: 14vw;
+  color: #41B3A3;
+  font-size: 1.6vw;
+}
+
+.top-row button{
+  padding: 0.5vw;
+  border-radius: 1vw;
+  padding-left: 0.6vw;
+  padding-right: 0.6vw;
+  background-color:#41B3A3;
+  border:none;
+  color:white;
+  font-weight: bold;
+  font-size: 0.8vw;
+}
+
+.form-panel{
+  margin-top:2vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#heading{
+  font-weight: bold;
+  font-size: 1.2vw;
+  letter-spacing: 0.1vw;
+  margin-bottom: 1.5vw;
+}
+
+.inputbox{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #BBBBBB;
+  padding:0.5vw;
+  border-radius: 0.4vw;
+  margin-bottom: 1vw;
+}
+
+.inputbox input{
+  font-size: 0.9vw;
+}
+
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.top label{
+  font-size: 0.8vw;
+  color:#BBBBBB;
+}
+
+#counter{
+  margin-left:23vw;
+}
